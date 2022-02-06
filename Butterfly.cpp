@@ -14,14 +14,14 @@ void main()
       
 	cout << endl;
 	for (i = 1; i <= h; i++) {//upper part
-		for (j = 1; j <= i; j++) {//first upper triangel
+		for (j = 1; j <= i; j++) {//first upper triangle
 			cout << setw(2) << o;
 
 		}
-		for (j = 1; j <= 2 * (h - i); j++) {//the space between two upper triangles
+		for (j = 1; j <= 2 * (h - i); j++) {//the space between two upper triangle
 			cout << setw(2) << " ";
 		}
-		for (j = 1; j <= i; j++) {//second upper triangel
+		for (j = 1; j <= i; j++) {//second upper triangle
 			cout << setw(2) << o;
 		}
 		cout << endl;
@@ -34,10 +34,10 @@ void main()
 			cout <<setw(2)<< o;
 
 		}
-		for (j = 1; j <= 2 * (h - i); j++) {//the space between two lower triangles
+		for (j = 1; j <= 2 * (h - i); j++) {//the space between two lower triangle
 			cout << setw(2) << " ";
 		}
-		for (j = 1; j <= i; j++) {//second lower triangel
+		for (j = 1; j <= i; j++) {//second lower triangle
 			cout << setw(2) << o;
 		}
 		cout<<endl;
